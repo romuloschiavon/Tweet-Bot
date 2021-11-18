@@ -20,13 +20,13 @@ And remember that in the end of the folder you'll need to add another **}**, it 
 
 Save the file as tweets.json and put it in the root folder (where you cloned the repo)
 
-### Imports
-You'll probably need to install tweepy if you never used it. Remember to do: ```pip install tweepy```, and if you alreade have tweepy just update it: ```pip install tweepy --update```
-
 ### API Keys
 This project requires **Twitter API Credentials**, if you have no existing app create one **[here](https://developer.twitter.com/en/portal/projects-and-apps)**, after creation go to details and assign more permissions to your aplication. The application requires **Read, Write and Direct Messages** level of permissions to do what it's intended.
 
 After generating Consumer and Api Access Keys, change them in the apikeys.py folder.
+
+### Imports
+You'll probably need to install tweepy if you never used it. Remember to do: ```pip install tweepy```, and if you alreade have tweepy just update it: ```pip install tweepy --update```
 
 ### Choosing date
 In the main.py folder you'll see that there's a variable called **endRange**, ```endRange = datetime.now(timezone.utc) - timedelta(days = 365)```.
