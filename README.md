@@ -32,5 +32,5 @@ You'll probably need to install tweepy if you never used it. Remember to do: ```
 In the main.py folder you'll see that there's a variable called **endRange**, ```endRange = datetime.now(timezone.utc) - timedelta(days = 365)```.
 The 365 indicates that you want to delete every tweet that is 1 year or older as of the day you're running the code. But you can change the 365 to any number you would like.
 
-### Running
-Now that everything is set-up, and you didn't mess up anything, you can run the code with any prompt you want, and it should work.
+## Running
+Now that everything is set-up, and you didn't mess up anything, you can run the code ```python main.py``` with any prompt you want, and it should work.
